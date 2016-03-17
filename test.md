@@ -5,19 +5,18 @@ date: "March 17, 2016"
 output: word_document
 ---
 
-## Getting and Cleaning Data - Course Project
+# Getting and Cleaning Data - Course Project
 
-```
 This is README for project. The purpose of this document is that provide the description of how to solve the project objectives.
-```
 
-# Analysis for the raw data
+
+## Analysis for the raw data
 ```
   1. Understand the provided document such as README.txt, feature_info.txt, and feature.txt
   2. Anslysis the test and training set.
   3. Analysis activity label and other descriptive data.
 ```  
-# Program development
+## Program development
 ```
   Create R script called 'run_analysis.R'
   1. Download the data from special location.
@@ -29,12 +28,10 @@ This is README for project. The purpose of this document is that provide the des
   7. Prepare the output as 'tidy.txt'
   8. Enchance with the print() statement in each step for progress monitioring. 
 ```  
-# File Submission
+## File Submission
 ```
   1. run_analysis.R
   2. codeBook.md
   3. README.md
   4. tidy.txt
 ```
-
-# End of READM
