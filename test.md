@@ -5,26 +5,36 @@ date: "March 17, 2016"
 output: word_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+## Getting and Cleaning Data - Course Project
+
+```
+This is README for project. The purpose of this document is that provide the description of how to solve the project objectives.
 ```
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
+# Analysis for the raw data
+```
+  1. Understand the provided document such as README.txt, feature_info.txt, and feature.txt
+  2. Anslysis the test and training set.
+  3. Analysis activity label and other descriptive data.
+```  
+# Program development
+```
+  Create R script called 'run_analysis.R'
+  1. Download the data from special location.
+  2. Load the Label data
+  3. Extrac1t the selected features based on the study result from analysis phase step 1.
+  4. Load the training set and test set.
+  5. Merge the data to fufull the requirement.
+  6. Calculate the average of each variable for each activity and each subject.
+  7. Prepare the output as 'tidy.txt'
+  8. Enchance with the print() statement in each step for progress monitioring. 
+```  
+# File Submission
+```
+  1. run_analysis.R
+  2. codeBook.md
+  3. README.md
+  4. tidy.txt
 ```
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+# End of READM
